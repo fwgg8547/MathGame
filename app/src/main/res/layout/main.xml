@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/base"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		
+		>
+
+<GridLayout
+		android:id="@+id/gridspace"
+		android:columnCount="5"
+		android:rowCount="5"
+		android:layout_width="match_parent"
+		android:layout_height="400dp"
+		>
+
+</GridLayout>
+
+<LinearLayout
+		android:id="@+id/cosole"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+		<Button
+				android:id="@+id/createBtn1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="create"/>
+		
+		<Button
+				android:id="@+id/updateBtn1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:text="update"/>
+		
+		<TextView
+				android:id="@+id/tmpsum"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="0"
+				>
+		</TextView>
+</LinearLayout>	
+</LinearLayout>
